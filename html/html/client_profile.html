@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="cupcake">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Serenade Space Log in page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/2.6.0/uicons-solid-rounded/css/uicons-solid-rounded.css"
+    />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <nav>
+      <div class="navbar bg-teal-400">
+        <div class="flex-none">
+          <div class="dropdown dropdown-bottom">
+            <div tabindex="0" role="button" class="btn btn-square btn-ghost">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                class="inline-block h-5 w-5 stroke-current"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h16M4 18h16"
+                ></path>
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="bg-yellow-100 border-2 border-teal-400 dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow"
+            >
+              <li><a>About Us</a></li>
+              <li><a>Contact us</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="flex-1">
+          <a href="index.html" class="btn btn-ghost text-xl">Serenity</a>
+        </div>
+        <div class="flex-none">
+          <button class="btn btn-square btn-ghost">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              class="inline-block h-5 w-5 stroke-current"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"
+              ></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </nav>
+    <section>
+      <div
+        class="grid grid-flow-col bg-yellow-50 text-base-content rounded text-center"
+      >
+        <div class="border-l-2 border-teal-400 p-4">
+          <img src="/images/home.svg" class="w-5 text-center m-auto" alt="" />
+          <a class="link link-hover hover:text-teal-400">Home</a>
+        </div>
+
+        <div class="border-l-2 border-teal-400 p-4">
+          <img src="/images/user.svg" class="w-5 text-center m-auto" alt="" />
+          <a class="link link-hover hover:text-teal-400"> Profile </a>
+        </div>
+        <div
+          class="dropdown dropdown-hover border-l-2 border-teal-400 py-4 hover:text-teal-400"
+        >
+          <div tabindex="0" role="button" class="">
+            <div>
+              <img
+                src="/images/user-pen.svg"
+                class="w-5 text-center m-auto"
+                alt=""
+              />
+              <a class="link link-hover">My Account</a>
+            </div>
+          </div>
+          <ul
+            tabindex="0"
+            class="bg-yellow-50 dropdown-content menu bg-base-100 rounded-sm z-[1] w-52 p-2 mt-4 shadow"
+          >
+            <li>
+              <img src="/images/caret-right.svg" class="w-1" alt="" /><a
+                >Account Information
+              </a>
+            </li>
+            <li><a>Change Password </a></li>
+          </ul>
+        </div>
+        <div
+          class="dropdown dropdown-hover border-l-2 border-teal-400 py-4 hover:text-teal-400"
+        >
+          <div tabindex="0" role="button" class="">
+            <div>
+              <img
+                src="/images/hand-bill.svg"
+                class="w-5 text-center m-auto"
+                alt=""
+              />
+              <a class="link link-hover">Payments</a>
+            </div>
+          </div>
+          <ul
+            tabindex="0"
+            class="bg-yellow-50 dropdown-content menu bg-base-100 rounded-sm z-[1] w-52 p-2 mt-4 shadow"
+          >
+            <li><a>Account Status </a></li>
+            <li><a>Installment Payment </a></li>
+            <li><a>Payment History </a></li>
+          </ul>
+        </div>
+        <div class="border-l-2 border-teal-400 p-4">
+          <img
+            src="/images/rules-alt.svg"
+            class="w-5 text-center m-auto"
+            alt=""
+          />
+          <a class="link link-hover hover:text-teal-400">Curriculum</a>
+        </div>
+        <div class="border-l-2 border-teal-400 p-4">
+          <img
+            src="/images/shipping-timed.svg"
+            class="w-5 text-center m-auto"
+            alt=""
+          />
+          <a class="link link-hover hover:text-teal-400">Services</a>
+        </div>
+
+        <div
+          class="hover:text-teal-400 dropdown dropdown-hover border-l-2 border-teal-400 py-4"
+        >
+          <div tabindex="0" role="button" class="">
+            <div>
+              <img
+                src="/images/calendar-days.svg"
+                class="w-5 text-center m-auto"
+                alt=""
+              />
+              <a class="link link-hover hover:text-teal-400">Appointments</a>
+            </div>
+          </div>
+          <ul
+            tabindex="0"
+            class="bg-yellow-50 dropdown-content menu bg-base-100 rounded-sm z-[1] w-52 p-2 mt-4 shadow"
+          >
+            <li><a>Upcoming </a></li>
+            <li><a>Previous </a></li>
+          </ul>
+        </div>
+        <div
+          class="dropdown dropdown-hover border-l-2 border-teal-400 py-4 hover:text-teal-400"
+        >
+          <div tabindex="0" role="button" class="">
+            <div>
+              <img
+                src="/images/laptop-medical.svg"
+                class="w-5 text-center m-auto"
+                alt=""
+              />
+              <a class="link link-hover">Counselors</a>
+            </div>
+          </div>
+          <ul
+            tabindex="0"
+            class="bg-yellow-50 dropdown-content menu bg-base-100 rounded-sm z-[1] w-52 p-2 mt-4 shadow"
+          >
+            <li><a>Currently Assigned </a></li>
+            <li><a>Previous Counselors </a></li>
+          </ul>
+        </div>
+      </div>
+      <h1
+        class="text-3xl font-bold p-5 text-center m-auto mt-10 rounded-lg bg-yellow-100 w-1/2 border-2 border-teal-300"
+      >
+        Welcome YY
+      </h1>
+    </section>
+
+    <section>
+      <a href="memberLogin.html" class="btn btn-primary m-8 hover:text-white"
+        >Back</a
+      >
+    </section>
+  </body>
+</html>
